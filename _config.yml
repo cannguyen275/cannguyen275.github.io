@@ -1,120 +1,250 @@
 # Site
-repository: sproogen/resume-theme
+repository: cannguyen275/cannguyen275.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Can Nguyen
+title: Senior Artificial Intelligence Engineer
+email: nguyenngoc.can275@gmail.com
+phone: (+84)76 456 6667
+linkedin_username: nncan
+github_username:  cannguyen275
+youtube_username: "@275c_channel"
+
+# Additional icon links
+additional_links:
+- title: itviec_blog
+  icon: fas fa-globe
+  url: https://itviec.com/blog/ai-la-gi
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/Image.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I'm Can! As a Senior Artificial Intelligence Engineer, I've spent 8 exciting years diving deep into the world of AI, machine learning, and computer vision. Recently, I've been exploring the fascinating realms of LLMs and AI agents, always staying at the cutting edge of technology.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  With a product-driven mindset, I'm passionate about transforming innovative AI concepts into real-world solutions that create tangible value for businesses. I love tackling challenging problems and delivering end-to-end implementations that make a real difference.
+  
+  I am most skilled in: <mark>Deep Learning</mark>, <mark>Computer Vision</mark>, <mark>LLMs & AI Agents</mark>, and <mark>Finding the Cheapest Products on Shopee</mark> (because even AI engineers need to optimize their shopping algorithms! 😄)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Braiven
+        sub_title: Head of Computer Vision
+        caption: Nov 2023 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Braiven is an orchestration platform that bridges the gap between Computer Vision AI, LLMs and IOT for different industries.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Architected and deployed high-performance computer vision systems including a 98%-accurate ALPR system for Thailand, real-time CCTV analytics, and innovative <mark>AI Agents</mark> combining <mark>LLMs</mark>, <mark>VLMs</mark>, and <mark>RAG</mark> for industrial applications. 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+          Tech stack: PyTorch, OpenCV, LangGraph, LangChain, Ollama, FastAPI, Docker.
+
+          As the only Vietnamese engineer in the team, I truly enjoy working directly with the CEO on cutting-edge technologies.
+
+      - layout: left
+        title: Kobiton
+        sub_title: Senior AI Engineer
+        caption: Mar 2022 - Nov 2023
+        quote: >
+          Kobiton is a mobile device testing platform where I spearheaded the development of an AI-powered virtual testing assistant.
+        description: | # this will include new lines to allow paragraphs
+          Continue the development of AI services within Kobiton's microservice architecture, managing all AI-related components. Implemented state-of-the-art algorithms for visual/text similarity using contrastive learning and advanced OCR techniques to enhance mobile app testing automation.
+
+          Tech stack: PyTorch, TensorFlow, OpenCV, FastAPI, gRPC, Kubernetes, Docker.
+
+      - layout: left
+        title: Viettel High Tech
+        sub_title: AI Engineer
+        caption: Jan 2020 - Mar 2022
+        quote: >
+          Viettel High Tech is Vietnam's leading technology corporation specializing in defense and civilian high-tech solutions.
+        description: | # this will include new lines to allow paragraphs
+          Achieved <mark>#2</mark> in Vietnam NIST 1:1 Face Verification and developed SOTA lightweight models for face recognition and ALPR running on DSP Android Surveillance Camera. Built comprehensive smart building solution for Viettel headquarters, integrating face recognition for door access and ALPR for parking management.
+
+          Tech stack: PyTorch, OpenCV, C++, Android NDK, ONNX, SNPE Qualcomm.
+
+      - layout: left
+        title: Soongsil University
+        sub_title: Research Assistant
+        caption: Aug 2019 - Dec 2019
+        quote: >
+          Research internship at ANDA Lab - My first step abroad to explore new technologies and cultures in South Korea.
+        description: | # this will include new lines to allow paragraphs
+          Conducted research on multi-modal sensor fusion, combining LiDAR and visual data to enhance vehicle detection and tracking for autonomous driving applications.
+
+      - layout: left
+        title: Cinnamon AI
+        sub_title: AI Researcher
+        caption: Dec 2018 - Dec 2019
+        quote: >
+          Cinnamon AI specializes in AI-powered document processing and automation solutions.
+        description: | # this will include new lines to allow paragraphs
+          Researched and implemented state-of-the-art deep learning algorithms for document understanding. Contributed innovative solution to unify text detection and OCR into a single end-to-end model for Vietnamese and Japanese languages.
+
+      - layout: left
+        title: TMA Solutions
+        sub_title: AI/ML Engineer - Computer Vision Team Leader
+        caption: Sep 2017 - Dec 2018
+        quote: >
+          My first full-time role after graduation at TMA Solutions, a leading software development company in Vietnam.
+        description: | # this will include new lines to allow paragraphs
+          Rapidly grew from junior engineer to Computer Vision Team Leader, successfully delivering diverse AI projects. Led development of ALPR for parking systems, retail solutions including brand recognition and facial analysis, and an innovative autonomous following robot. Shared knowledge by conducting ML/DL training courses for employees and university students.
+
+          Tech stack: TensorFlow, OpenCV, Python, scikit-learn.
+
+      - layout: left
+        title: Multimedia Communications Laboratory (MMLab) - UIT
+        sub_title: Research Student
+        caption: Feb 2016 - Aug 2017
+        quote: >
+          First research experience at UIT's premier computer vision laboratory, laying the foundation for my AI career.
+        description: | # this will include new lines to allow paragraphs
+          Learned research methodology in Computer Vision while focusing on face analysis projects, including face recognition and facial expression recognition systems. This experience sparked my passion for AI and shaped my career path.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Liverpool John Moores University
+        sub_title: Master in Data Science
+        caption: 2022 - 2024
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Established in 1823, Liverpool John Moores University (LJMU) is a public research university in the city of Liverpool, England. Grateful to pursue my master's degree at this prestigious institution.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Mastering comprehensive data science skills including statistical analysis, machine learning, and big data processing, with particular focus on deep learning applications.
+          
+          Master's thesis: "An Efficient Segmentation-Free OCR for Dual Recognition of Numbers and Provinces on Thai License Plates" - developing a novel approach to license plate recognition.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: University of Information Technology
+        sub_title: Bachelor's degree, Honor Program in Computer Science
+        caption: Sep 2013 - Oct 2017
+        quote: >
+          Selected for the prestigious Honor Program, where my passion for AI and machine learning first took root.
+        description: | # this will include new lines to allow paragraphs
+          Completed intensive coursework in computer science with specialization in artificial intelligence and machine learning. Participated in research projects at MMLab, laying a strong foundation for my career in AI.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Licenses & Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Executive PG Programme in Data Science
+        sub_title: International Institute of Information Technology Bangalore
+        caption: Feb 2024
+        link: https://www.credential.net/ca0245a6-1ba9-4444-bf5b-d101a93e5677
+        link_text: View Certificate
+        description: | # this will include new lines to allow paragraphs
+          Comprehensive program covering data science fundamentals and advanced applications:
+          - Statistical analysis and data modeling
+          - Machine learning fundamentals and deep learning
+          - Data exploration and visualization
+          - Database management systems
+          
+          Skills: Data Analysis, Statistics, Deep Learning, SQL, Python, TensorFlow, PyTorch
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: Deep Learning Specialization
+        sub_title: Coursera
+        caption: Aug 2018 - Nov 2018
+        description: | # this will include new lines to allow paragraphs
+          Mastered deep learning fundamentals and advanced techniques through three key courses:
+          
+          - [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/verify/8Z7432RRGKZ6): Built and trained deep neural networks, implemented vectorized neural networks, and mastered foundational concepts.
+
+          - [Improving Deep Neural Networks](https://www.coursera.org/account/accomplishments/verify/M9KZY8CC72XF): Advanced optimization techniques, hyperparameter tuning, and regularization strategies. Implemented TensorFlow models.
+          
+          - [Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/verify/BLRW2PHFLDY3): Industry-level ML project management, error analysis, and end-to-end learning system design.
+          
+          Skills: Deep Learning, Neural Networks, TensorFlow, Python, Hyperparameter Tuning, Transfer Learning, ML Strategy, Mathematical Optimization
+
+      - layout: left
+        title: Google Cloud ML Engineering
+        sub_title: Coursera
+        caption: Nov 2018
+        link: https://www.coursera.org/account/accomplishments/verify/5J5H84JNMJMV
+        link_text: View Certificate
+        description: | # this will include new lines to allow paragraphs
+          Practical ML implementation on Google Cloud Platform:
+          - AutoML and Vertex AI Platform deployment
+          - ML best practices and responsible AI
+          
+          Skills: Google Cloud Platform, BigQuery, Machine Learning, APIs, Inclusive ML
+
+      - layout: left
+        title: TOEIC 810
+        sub_title: IIG Vietnam
+        caption: May 2020 - May 2022
+        description: | # this will include new lines to allow paragraphs
+          Professional English proficiency for international business communication.
+
+  - title: Honors & Awards
+    layout: list
+    content:
+      - layout: left
+        title: Student of 5 merits
+        sub_title: Vietnamese Students' Association
+        caption: Oct 2015
+        description: | # this will include new lines to allow paragraphs
+          Good at ethics, academic accomplishment, physical fitness, voluntary activities, integration
+
+      - layout: left
+        title: Best Proof of Concept
+        sub_title: TMA company
+        caption: Jun 2018
+        description: | # this will include new lines to allow paragraphs
+          Best Proof of Concept Award Certificate in Quarter 2 - 2018, TMA company for Brand Recognition project
+
+      - layout: left
+        title: Award Certificate
+        sub_title: TMA company
+        caption: Sep 2018
+        description: | # this will include new lines to allow paragraphs
+          In recognition of the team's outstanding performance and valuable contribution to the Computer Vision Course project in Quarter 3 - 2018
+
+      - layout: left
+        title: Best Employee
+        sub_title: Viettel High Technology Industries Corporation
+        caption: Apr 2021
+        description: | # this will include new lines to allow paragraphs
+          Recognized for outstanding contributions to smart building solutions and Camera Center platform, bringing innovation to face recognition access control and parking management.
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: ARPD - Anchor-free Rotation-aware People Detection using Topview Fisheye Camera
+        caption: Jul 5, 2022
+        link: https://arxiv.org/pdf/2201.10107
+        link_text: View Paper
+        quote: >
+          Proceedings of the International Conference on Intelligent Systems and Networks (ICISN 2022)
+        description: | # this will include new lines to allow paragraphs
+          Authors: Quan Nguyen Minh, Bang Le Van, Can Nguyen, Anh Le and Viet Dung Nguyen
+
+          A novel single-stage anchor-free network for detecting arbitrarily rotated people in fish-eye images, featuring keypoint estimation and angle prediction with periodic loss function.
+
+      - layout: left
+        title: Occlusion Robust Face Recognition Based on Mask Learning with Attention Mechanism
+        caption: Jul 5, 2022
+        link: https://link.springer.com/chapter/10.1007/978-981-19-3394-3_19
+        link_text: View Paper
+        quote: >
+          Proceedings of the International Conference on Intelligent Systems and Networks (ICISN 2022)
+        description: | # this will include new lines to allow paragraphs
+          Authors: Quan Nguyen Minh, Bang Le Van, Can Nguyen Ngoc, Viet Dung Nguyen
+
+          We present a unique Switching Replacement Attention Network (SRAN) for robust face identification based on attention mechanism, which is inspired by the human visual system, which exclusively focuses on non-occluded facial areas.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
